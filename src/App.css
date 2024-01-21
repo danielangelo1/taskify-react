@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900");
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #682c34;
+  width: 100vw;
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+  padding-top: 30px;
+}
+
+.heading {
+  text-transform: uppercase;
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+  z-index: 1;
+}
+
+@media (max-width: 850px) {
+  .heading {
+    padding-top: 15px;
+    font-size: 1.5rem;
+  }
+}
