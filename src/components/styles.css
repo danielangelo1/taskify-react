@@ -59,7 +59,7 @@
   border-radius: 5px;
   padding: 20px;
   margin-top: 15px;
-  background-color: yellowgreen;
+  background-image: url("https://img.freepik.com/free-photo/crumpled-yellow-paper-background-close-up_60487-2390.jpg?size=626&ext=jpg");
 }
 
 .todos__single--text {
@@ -91,8 +91,8 @@
   }
 }
 
-@media (max-width: 1200px) {
+/* @media (max-width: 1200px) {
   .todos__single {
     width: 40%;
   }
-}
+} */

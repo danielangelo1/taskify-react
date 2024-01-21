@@ -30,7 +30,7 @@ const SingleTodo = ({ todo, todos, setTodos }: Props) => {
       ) : (
         <span className="todos__single--text">{todo.todo}</span>
       )}
-      <div className="">
+      <div>
         <span className="icon">
           <AiFillEdit />
         </span>
